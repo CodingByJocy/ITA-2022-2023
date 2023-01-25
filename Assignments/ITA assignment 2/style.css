@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+   background-image: url(images/5570863.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+aside {
+    display: inline-block;
+    width: 600px;
+    vertical-align: top;
+    padding: 0 0 0 8px;
+
+}
+.navigation{
+    
+   margin-top: 100px;
+    left: 0;
+    width: 100%;
+    border: 1px solid rgb(44, 75, 82);
+    border-radius: 25px 0 25px 0;
+   
+}
+
+.links-nav{
+    padding: 20px 20px;
+    margin: 20px;
+    justify-content: space-around;
+    display: inline-block;
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-family:Courier New, monospace;
+    
+    text-decoration: none;
+    
+}
+.links-nav li  a{
+    text-decoration: none;
+    color: #4c007b;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 0 10px 5px;
+    position: relative;
+    border: 0.5px solid #c3dff9;
+    border-radius: 10px 0 20px 0;
+  }
+  ul li a::after {
+    content: " ";
+    width: 0px;
+    height: 5px;
+    background: #35c4fd;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30px;
+    transition: 0.5s;
+  }
+  ul li a:hover::after{
+    width: 100%;
+  }
+
+.title {
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.pupin {
+    margin-left: 20px;
+    border: 2px solid black;
+}
+.about{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.early-life h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Gill Sans';
+    margin-top: 50px;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.early-life h3{
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    text-transform: capitalize;
+}
+.early-life p{
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.education h4{
+    margin-top: 50px;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+}
+.literary-work h2{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.literary-work p {
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.literary-work h3{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.literary-work ul {
+    margin-left: 10px;
+    list-style-position: inside;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.pupin-coils h2{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.pupin-coils p {
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+.pupin-coils img {
+    border: 2px solid rgb(233, 233, 233);
+    margin-left: 10px;
+}
+.university {
+    border: 2px solid rgb(233, 233, 233);
+    margin-left: 10px;
+}
+table, th, td {
+    border: 1px solid rgb(65, 45, 4);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1px;
+}
