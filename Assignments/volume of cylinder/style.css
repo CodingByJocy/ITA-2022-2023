@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(227, 234, 241);
+}
+
+h1 {
+    font-size: 25px;
+    font-family:Cambria, sans-serif;
+}
+h3 {
+    font-family:sans-serif;
+    font-size: 12px;
+}
+form {
+    background-color: rgb(238, 229, 241);
+    margin: auto;
+    padding: 20px;
+    border: 2px solid rgb(80, 3, 106);
+    border-radius: 0 25px 0 25px;
+    width: 50%;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+form p {
+    font-weight: 700;
+    font-family: Cambria;
+}
+button {
+    font: 1em sans-serif;
+    border: 2px solid rgb(80, 3, 106);
+    border-radius: 20px 0 20px 0;
+    padding: 4px;
+}
+#volume {
+    font-weight: 700;
+    font-size: 15px;
+    color: black;
+}
