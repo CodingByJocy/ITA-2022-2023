@@ -4,20 +4,24 @@
 #second-div p:nth-child(odd){
   color: blue;
 }
-a:link [target]{
+body > a[target]{
   color: red;
+  font-size: 20px;
+
 }
-a:link [href^="https://www.google.com"] {
+ body > a[href^="https://www.google.com"] {
   color: green;
+  font-size: 20px;
+
 }
 #first-div > p::after {
   content: "NEW";
   color: yellow;
   background-color: rgb(25, 52, 76);
-  padding: 2px;
-  margin: 2px;
+  padding: 3px;
+  margin: 3px;
 }
-p:hover:nth-of-type(3){
+body > p:hover:nth-last-of-type(1){
   font-style: italic;
 }
 
