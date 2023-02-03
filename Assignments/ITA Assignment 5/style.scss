@@ -1,0 +1,53 @@
+
+body {
+    background-color: aliceblue;
+}
+h1{
+    text-align: center;
+    margin-top:150px ;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: -90px;
+}
+
+
+form {
+  
+    background-color: rgb(238, 229, 241);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid rgb(80, 3, 106);
+    border-radius: 0 25px 0 25px;
+    width: 50%;
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+
+    label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: arial;
+    }
+    input {
+    width: 80%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    box-sizing: border-box;
+    border-radius: 10px 0px 10px 0;
+    justify-content: space-evenly;
+    }
+    p {
+        font-size: 20px;
+        font-weight: 700;
+        font-family: 'Lucida Sans Unicode';
+        border: 1px solid black;
+        text-align: center;
+        padding: 2px;
+        justify-content: space-evenly;
+        
+        
+    }
+}
