@@ -2,13 +2,13 @@
 body {
     background-color: aliceblue;
 }
+
 h1{
     text-align: center;
     margin-top:150px ;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: -90px;
 }
-
 
 form {
   
@@ -30,6 +30,7 @@ form {
     font-size: 20px;
     font-family: arial;
     }
+
     input {
     width: 80%;
     padding: 10px;
@@ -39,15 +40,16 @@ form {
     border-radius: 10px 0px 10px 0;
     justify-content: space-evenly;
     }
+
     p {
-        font-size: 20px;
-        font-weight: 700;
-        font-family: 'Lucida Sans Unicode';
-        border: 1px solid black;
-        text-align: center;
-        padding: 2px;
-        justify-content: space-evenly;
-        
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lucida Sans Unicode';
+    border: 1px solid black;
+    text-align: center;
+    padding: 2px;
+    justify-content: space-evenly;
         
     }
+
 }
