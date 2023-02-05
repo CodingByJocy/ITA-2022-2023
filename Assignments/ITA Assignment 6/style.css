@@ -1,15 +1,15 @@
 body {
-  background-color: #050210;
+  background: #050210;
 }
 
 .glitter {
-  position: fixed;
-  width: 400px;
-  height: 400px;
+  position: relative;
+  width: 440px;
+  height: 440px;
   border-radius: 100%;
-  background: linear-gradient(transparent -20%, #fb5dad, #55fb9f, #b97aff);
-  margin: 180px 530px;
-  filter: blur(30px);
+  background: linear-gradient(transparent -70%, #fb5dad, #55fb9f, #b97aff);
+  margin: 200px auto;
+  filter: blur(10px);
   -webkit-animation-name: circle-animation;
           animation-name: circle-animation;
   -webkit-animation-duration: 1s;
@@ -23,15 +23,14 @@ body {
 }
 
 .circle {
-  border: 1px solid white;
-  position: fixed;
-  top: 25%;
-  left: 35%;
+  position: relative;
   width: 400px;
   height: 400px;
+  margin: -120px auto;
   border-radius: 100%;
   background: linear-gradient(#fb5dad, #55fb9f, #b97aff);
-  box-shadow: 0 0 50px 10px rgba(255, 255, 255, 0.5);
+  bottom: 500px;
+  box-shadow: 0px 0px 80px 20px rgba(255, 255, 255, 0.7);
   -webkit-animation-name: circle-animation;
           animation-name: circle-animation;
   -webkit-animation-duration: 1s;
@@ -45,21 +44,21 @@ body {
 }
 
 .item {
-  position: fixed;
-  width: 370px;
-  height: 370px;
-  margin: 196px 545px;
+  position: relative;
+  width: 355px;
+  height: 355px;
+  margin: -876px auto;
   border-radius: 100%;
   background: #050210;
 }
-.item .item::before {
-  position: absolute;
-  content: "";
-  width: 370px;
-  height: 370px;
-  margin: 196px 545px;
+
+.item-inner {
+  position: relative;
   border-radius: 100%;
-  background: rgba(243, 243, 243, 0.8);
+  width: 353px;
+  height: 353px;
+  margin: 522px auto;
+  background-color: rgba(255, 255, 255, 0.5);
   -webkit-animation-name: item-animation;
           animation-name: item-animation;
   -webkit-animation-duration: 1s;
@@ -74,46 +73,38 @@ body {
 
 @-webkit-keyframes circle-animation {
   0% {
-    transform: translateX(0) rotate(0);
+    transform: translateX(0px) rotate(0deg);
   }
   100% {
-    transform: translateX(0) rotate(360deg);
+    transform: translateX(0px) rotate(360deg);
   }
 }
 
 @keyframes circle-animation {
   0% {
-    transform: translateX(0) rotate(0);
+    transform: translateX(0px) rotate(0deg);
   }
   100% {
-    transform: translateX(0) rotate(360deg);
+    transform: translateX(0px) rotate(360deg);
   }
 }
 @-webkit-keyframes item-animation {
   0% {
-    transform: translateX(0) scale(0, 0);
+    transform: translateX(0px) scale(0);
     opacity: 0.3;
   }
-  50% {
-    transform: translateX(0) scale(0.5, 0.5);
-    opacity: 0.5;
-  }
   100% {
-    transform: translateX(0) scale(1, 1);
-    opacity: 0.9;
+    transform: translateX(0px) scale(1);
+    opacity: 0.8;
   }
 }
 @keyframes item-animation {
   0% {
-    transform: translateX(0) scale(0, 0);
+    transform: translateX(0px) scale(0);
     opacity: 0.3;
   }
-  50% {
-    transform: translateX(0) scale(0.5, 0.5);
-    opacity: 0.5;
-  }
   100% {
-    transform: translateX(0) scale(1, 1);
-    opacity: 0.9;
+    transform: translateX(0px) scale(1);
+    opacity: 0.8;
   }
 }/*# sourceMappingURL=style.css.map */
