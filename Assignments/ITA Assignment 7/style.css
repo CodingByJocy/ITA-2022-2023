@@ -1,0 +1,81 @@
+#grid{
+    font-family: sans-serif;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    max-width: 1024px;
+    width:90%;
+    margin: 0px auto;
+    
+}
+h1{
+    width:100%;
+    padding:10px;
+    margin-left: 20px;
+
+}
+img{
+    max-width: 250px;
+    width:100%;
+    margin:auto;
+}
+.grid-image{
+   
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: rgb(89, 180, 188);
+    text-align: center;
+    border-radius: 15px;
+    border: 0.5px dashed black;
+    box-shadow: 0px 0px 3px 3px rgba(219, 219, 235, 0.959);
+
+
+}
+.grid-item{
+    flex-basis: 20%;
+    padding:30px;
+    box-sizing: border-box;
+}
+.grid-image > p{
+    background-color: white;
+    margin:0px;
+    padding:10px;
+    border-radius: 0 0 15px 15px;
+}
+
+.text{
+    width:100%;
+    font-size: 15px;
+    text-align: justify;
+    margin:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+ 
+@media screen and (max-width: 1024px){
+    .grid-item{
+        flex-basis: 30%;
+    }
+    #some-text{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:800px){
+    .grid-item{
+        flex-basis:50%;
+    }
+    #some-text{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 415px){
+    .grid-item{
+        flex-basis: 100%;
+    }
+    #some-text{
+        font-size:24px;
+    }
+}
