@@ -1,32 +1,34 @@
-.main-img {
-    position: relative;
-  }
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+header a{
   
-  .overlay-text {
-    position: absolute;
-    top: 20%;
-    left: 20%;
-    padding: 10px;
-    color: #fff;
-    background-color: rgb(133, 237, 202);
-    font-size: 24px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-  }
-  
-.head-menu {
-    float: right;
-    justify-content: space-evenly;
-    font-size: 20px;
+  font-family: sans-serif;
 }
-.head-menu li {
-    padding: 10px;
+header a:hover{
+  color: black;
 }
-.heading {
-    margin-left: 50px;
-    margin-top: 20px;
+
+header img{
+  width:15px;
+  height: 15px;
 }
-.main-img {
-    margin-top: 10px;
+
+#hero-bg{
+  position: relative;
+}
+#hero-text{
+  position: absolute;
+  font-family: sans-serif;
+   width: fit-content;
+} 
+#hero-text p{
+  font-weight: bold;
+  background-color: rgb(55, 165, 114);
+
 }
 .first-grid {
     margin-top: 50px;
@@ -35,3 +37,64 @@
     margin-top: 10px;
     padding-top: 10px;
 }
+#mobile-menu{
+    
+  background-color: rgba(128, 128, 128, 0.864);
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  display: none;
+  
+}
+#mobile-menu a{
+  color: white;
+  font-size: 24px;
+  border-bottom: 1px solid white;
+}
+#mobile-menu a:focus{
+  color: black;
+}
+#closing-btn{
+ display: flex;
+ justify-content: flex-end;
+ padding: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  #mobile-menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #fff;
+      z-index: 9999;
+      display: none;
+  }
+  
+  #mobile-menu.active {
+      display: block;
+  }
+  
+  #closing-btn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 2rem;
+  }
+  
+  #mobile-menu nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+  }
+  
+  #mobile-menu nav div {
+      margin-bottom: 20px;
+  }
+}
+  
