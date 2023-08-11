@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Playfair+Display&display=swap");
+
+#quiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  position: relative;
+}
+
+.quiz-question {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+}
+
+.quiz-option {
+  font-size: 20px;
+  font-style: oblique;
+  display: flex;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  align-items: center;
+}
+.radio-input {
+  display: flex;
+  flex-direction: column;
+}
+#quiz-container .quiz-question {
+  margin-bottom: 10px;
+}
+
+#quiz-container .quiz-option {
+  margin-bottom: 5px;
+}
+
+#submit-button {
+  position: relative;
+  margin-top: -30px;
+  bottom: 20px;
+  left: 48%;
+  transform: translateY(100%);
+}
